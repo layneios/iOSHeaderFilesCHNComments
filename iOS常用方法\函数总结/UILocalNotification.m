@@ -11,7 +11,7 @@
 @property(nonatomic,copy) NSDate *fireDate;
 
 /**
- *  时区，一般设置为[NSTimeZone defaultTimeZone]，跟随手机的时区
+ *  时区，一般设置为[NSTimeZone defaultTimeZone]，如果不设置，默认跟随手机的时区
  */
 @property(nonatomic,copy) NSTimeZone *timeZone;
 
@@ -19,6 +19,21 @@
  *  每隔多久重复发一次推送通知
  */
 @property(nonatomic) NSCalendarUnit repeatInterval;
+
+/**
+ *  设置具体的日期进行重复
+ */
+@property(nonatomic,copy) NSCalendar *repeatCalendar;
+
+/**
+ *  设置一个区域(一旦进入该区域的时候,就会发出通知)
+ */
+@property(nonatomic,copy) CLRegion *region NS_AVAILABLE_IOS(8_0);
+
+/**
+ *  是否只发送一次(每次进入某一个区域都发一次,还是只发生一次)
+ */
+@property(nonatomic,assign) BOOL regionTriggersOnce NS_AVAILABLE_IOS(8_0);
 
 /**
  *  推送通知的具体内容
@@ -41,7 +56,7 @@
 @property(nonatomic,copy) NSString *alertLaunchImage;
 
 /**
- *  音效文件名
+ *  音效文件名，一般使用系统默认声音 UILocalNotificationDefaultSoundName
  */
 @property(nonatomic,copy) NSString *soundName;
 

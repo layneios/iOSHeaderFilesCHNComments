@@ -8,6 +8,7 @@
 2. `NSOperation`
 3. `NSURLSession`
 4. `UILocalNotification`
+5. `UIScrollView`
 
 
 

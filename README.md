@@ -9,6 +9,7 @@
 3. `NSURLSession`
 4. `UILocalNotification`
 5. `UIScrollView`
+6. `NSURL`
 
 
 

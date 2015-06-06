@@ -11,6 +11,7 @@
 5. `UIScrollView`
 6. `NSURL`
 7. `UIResponder`
+8. `UIApplication`
 
 
 

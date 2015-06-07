@@ -12,6 +12,7 @@
 6. `NSURL`
 7. `UIResponder`
 8. `UIApplication`
+9. `NSThread`
 
 
 

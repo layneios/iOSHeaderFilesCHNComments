@@ -14,6 +14,7 @@
 8. `UIApplication`
 9. `NSThread`
 10. `NSURLConnection`
+11. `NSURLRequest`
 
 
 

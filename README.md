@@ -15,6 +15,7 @@
 9. `NSThread`
 10. `NSURLConnection`
 11. `NSURLRequest`
+12. `UIPickerView`
 
 
 

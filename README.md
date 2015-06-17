@@ -18,6 +18,7 @@
 12. `UIPickerView`
 13. `GCD`
 14. `UITableView`
+15. `NSFileManager`
 
 
 

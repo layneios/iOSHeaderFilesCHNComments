@@ -20,6 +20,7 @@
 14. `UITableView`
 15. `NSFileManager`
 16. `NSFileHandle`
+17. `UIDevice`
 
 
 

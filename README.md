@@ -22,6 +22,7 @@
 16. `NSFileHandle`
 17. `UIDevice`
 18. `UINavgationController`
+19. `NSURLResponse`
 
 
 

@@ -21,6 +21,7 @@
 15. `NSFileManager`
 16. `NSFileHandle`
 17. `UIDevice`
+18. `UINavgationController`
 
 
 

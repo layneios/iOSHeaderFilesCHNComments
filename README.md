@@ -23,6 +23,7 @@
 17. `UIDevice`
 18. `UINavgationController`
 19. `NSURLResponse`
+20. `NSJSONSerialization`
 
 
 

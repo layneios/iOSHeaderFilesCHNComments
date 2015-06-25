@@ -24,6 +24,7 @@
 18. `UINavgationController`
 19. `NSURLResponse`
 20. `NSJSONSerialization`
+21. `NSBundle`
 
 
 

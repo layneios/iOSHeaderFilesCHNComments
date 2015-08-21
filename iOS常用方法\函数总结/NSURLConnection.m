@@ -3,6 +3,8 @@
 //  Copyright (c) 2015年. All rights reserved.
 //
 
+
+/****************** NSURLConnection: NSObject ******************/
 /**
  *  发送网络连接 网络连接是异步的
  *
